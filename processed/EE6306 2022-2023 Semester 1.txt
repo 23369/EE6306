@@ -1,0 +1,499 @@
+EE6306
+NANYANG
+
+TECHNOLOGICAL
+
+UNIVERSITY
+
+SEMESTER 1 EXAMINATION 2022-2023
+EE6306 — DIGITAL INTEGRATED
+
+CIRCUIT DESIGN
+
+November / December 2022
+
+Time Allowed: 3 hours
+
+1.
+
+This paper contains 5 questions and comprises 6 pages.
+
+2.
+
+Answer all 5 questions.
+
+3.
+
+All questions carry equal marks.
+
+4.
+
+This is aclosed book examination.
+
+5.
+
+Unless specifically stated, all symbols have their usual meanings.
+
+1.
+
+(a)
+
+Thestick diagram ofa 5-input logic gate based on an n-well CMOS process is given
+in Figure 1.
+
+1) 4B
+|
+
+PELLL
+
+ee
+
+eee
+
+©
+
+DO
+
+E
+
+A CLEP
+
+—
+
+metal
+
+ee
+
+x
+
+contact
+
+[|
+
+polysilicon
+p diffusion
+
+eres?
+Figure 1
+
+Note: Question No. 1 continues on page 2.
+
+n diffusion
+N-well
+
+om
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+INSTRUCTIONS
+
+EE6306
+(i)
+
+Sketch the transistor-level schematic of the logic gate of Figure 1 (on page
+1) and deduce the logic function of the gate.
+
+(ii)
+
+From the stick diagram of Figure 1 on page 1, calculate the minimum area of
+the logic gate using the following simplified A-based design rules:
+e
+e
+e
+e
+e
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+e
+
+Metal and diffusion have a width and spacing of 4A.
+Contacts are 20x22 with a metal overlap of 1A.
+Polysilicon has a width of 2 and a spacing of 1 from diffusion.
+Polysilicon overlaps diffusion by 2A at a transistor position.
+Polysilicon and contacts have a spacing of 3A from other polysilicon
+and contacts.
+N-well surrounds pMOS transistors by 6A and is 6A from nMOS
+transistors.
+(10 Marks)
+
+(b)
+
+With the aid of a diagram, describe the latchup phenomenon. Briefly explain how
+an electrostatic discharge event can cause latchup on a CMOS chip and how latchup
+can be prevented.
+(6 Marks)
+
+(c)
+
+Given the two circuits of Figure 2, state which circuit will operate faster in
+terms of switching speed and explain your choice of answer.
+(4 Marks)
+DD
+
+i=
+
+w4E
+Ky
+oe
+
+Vp
+
+i:
+
+Output
+
+wl
+‘40
+
+Circuit 2(a)
+
+ky
+Jz
+Circuit 2(b)
+
+Figure 2
+
+Output
+
+EE6306
+2.
+
+Ina0.18-um process, the nMOS transistor was designed to have the parameters shown
+in Table 1.
+Table 1
+
+Transistor Parameter
+
+Value
+
+Channel length of nMOS, L
+Channel width of nMOS, W
+
+0.4 um
+1.2 um
+
+Doping level, Nu
+
+7x10!° cm?
+
+Substrate bias voltage between source and body, Vsp
+Threshold voltage without body bias (Vsz = 0), Vino
+
+2.5 V
+0.65 V
+
+Thermal voltage, vr
+
+25.9 mV
+
+Dielectric constant of SiO2, & x
+
+3.9&
+
+Gate oxide thickness
+
+80A
+
+Intrinsic carrier concentration, 7;
+
+1.5x10!° cm?
+
+Gain factor, 2
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+Dielectric constant of Si, és;
+
+300 pA/V?
+
+11.7&
+
+Permittivity of free space, &
+Electronic charge, g
+
+8.854x107!4 F/em
+1.6x10C
+
+(a)
+
+Calculate the gate capacitance of the nMOS transistor.
+
+(b)
+
+The threshold voltages of MOS transistor with and without body bias are defined
+as Vi, and Vino, respectively. Given below 1s the equation of Viz. Calculate Vi, for an
+nMOS transistor based on the parameters provided in Table 1.
+
+(3 Marks)
+
+Vin = Vino + V(V%s + Vsp — y ~s)
+
+where surface potential,
+
+@, = 2v; In (~4)
+
+and the body effect coefficient, y = V2qEsiNa
+Cox
+
+(5 Marks)
+
+Note: Question No. 2 continues on page 4.
+
+EE6306
+(c)
+
+(d)
+
+Calculate the drain current Jz; of the nMOS
+conditions:
+)
+Ves = Vas = 2.5 V.
+(1)
+Vegs=5 V and Vas = 2.5 V.
+(iii) Vgs=0.5 V and Va; =3 V.
+
+transistor for the following biasing
+
+(6 Marks)
+
+Shown in Figure 3 are two basic BiCMOS drivers. These circuits have their own
+merit(s) and limitation(s) in terms of speed, power dissipation and output swing.
+Comment on these performance metrics for each circuit.
+(6 Marks)
+
+Von
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+P
+
+?
+
+ae
+
+|
+
+IN
+
+Vop
+
+r
+V,
+
+fm
+
+om
+
+1k
+
+LL
+
+a
+
+Qp
+
+=
+
+“7 7
+
+|
+
+T
+
+Py
+
+7
+
+Op
+
+|
+
+a
+Je
+
+RA
+L__!
+4
+
+Cour
+
+|
+
+Circuit 3(a)
+
+»
+
+_
+
+Circuit 3(b)
+Figure 3
+
+tk
+
+a
+
+=3 Copr
+
+EE6306
+
+(a)
+
+Derive the Boolean expression for the 4-to-1 multiplexer circuit shown in Figure 4.
+The function table of the multiplexer is given in Table 2.
+Table 2
+
+g
+
+a
+
+0
+
+C\
+
+a 4
+
+Cr
+
+]
+
+C3
+
+Input
+yL_PF
+
+So
+
+1
+b
+
+C
+
+Output
+
+Si}
+
+So
+
+Y
+
+0
+
+0
+
+Co
+
+0
+
+1
+
+C;
+
+i
+
+0
+
+C>
+
+i
+
+1
+
+Cs
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+Figure 4
+
+Implement the same logic function in Pass Transistor Logic (PTL) and in Pseudo
+nMOS Complex logic transistor level circuit with minimum number of transistors.
+Briefly describe the advantages and disadvantages of PTL logic circuit compared
+to Pseudo nMOS logic circuit.
+
+(12 Marks)
+(b)
+
+A pipelined design can generally increase the throughput considerably. The
+propagation delays of the 4 combinational logic blocks in a datapath are 27ns, 36ns,
+28ns and 15ns, respectively, assuming that the delay associated with the latches and
+flip-flops are negligible and ignoring clock skew. Determine the data throughput
+improvement and the pipeline clock frequency when the 4-stage pipelined design
+is implemented. Suggest a method to increase the pipeline clock frequency and
+discuss the additional overhead(s) incurred in the new design. State any assumption
+made.
+(8 Marks)
+
+EE6306
+The carry chain delay in an adder is the main factor that limits the speed of the adder.
+Carry-select technique can be used to reduce the carry chain delay and improve the
+performance.
+
+(a)
+
+With the aid of a block diagram, explain how the carry-select technique reduces the
+carry chain delay.
+(4 Marks)
+
+(b)
+
+Draw a 16-bit 4-stage linear carry-select adder. Label clearly the blocks as well as
+the inputs and outputs of each block.
+(6 Marks)
+
+(C)
+
+Explain how the carry chain delay of the linear carry-select adder can be further
+reduced.
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+(4 Marks)
+
+(d)
+
+Draw a 14-bit square-root carry-select adder. Label clearly the blocks as well as the
+inputs and outputs of each block.
+
+(6 Marks)
+With the aid of a block diagram, explain briefly how the scan-based test technique
+is used in testing of digital integrated circuits, including a brief description of the
+test procedure.
+(10 Marks)
+
+(b)
+
+The retiming technique (also known as register balancing) is used to optimize logic
+circuit performance during logic synthesis. State a circuit performance factor that
+can be optimized by the retiming technique and explain briefly how the
+performance is improved with the aid of logic block diagrams.
+(10 Marks)
+
+END OF PAPER
+
+EE6306
+
+DIGITAL INTEGRATED CIRCUIT DESIGN
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+Please read the following instructions carefully:
+
+1.
+
+Please do not turn over the question paper
+until you are told to do so. Disciplinary action
+may be taken against you if you do so.
+
+2.
+
+You are not allowed to leave the examination hall unless
+accompanied by an invigilator. You may raise your hand if
+you need to communicate with the invigilator.
+
+Please write your Matriculation Number on the front of the
+answer book.
+Please indicate clearly in the answer book (at the
+appropriate place) if you are continuing the answer to a
+question elsewhere in the book.
+
+

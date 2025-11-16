@@ -1,0 +1,372 @@
+EE6306
+NANYANG
+
+TECHNOLOGICAL
+
+UNIVERSITY
+
+SEMESTER 1 EXAMINATION 2023-2024
+EE6306 — DIGITAL INTEGRATED
+
+CIRCUIT DESIGN
+
+November / December 2023
+
+Time Allowed: 3 hours
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+INSTRUCTIONS
+1.
+
+This paper contains 5 questions and comprises 5 pages.
+
+2.
+
+Answer all 5 questions.
+
+3.
+
+All questions carry equal marks.
+
+4.
+
+This is aclosed book examination.
+
+5.
+
+Unless specifically stated, all symbols have their usual meanings.
+
+(a)
+
+Derive the function Y for the circuit given in Figure 1.
+Vpp
+
+b—-A
+
+AL
+
+A
+
+bc
+
+4“
+
+Fe
+
+rc
+Y
+
+(5 Marks)
+Note: Question No. 1 continues on page 2.
+
+EE6306
+
+(b)
+
+Can the circuit of Figure 1 be further simplified to reduce the number of transistors?
+Explain your answer.
+(4 Marks)
+
+(C)
+
+Sketch a stick diagram for the function, Z = A-(B+C)-(D+£)+F.
+of X, estimate the cell width and height of your design.
+
+In terms
+(7 Marks)
+
+(d)
+
+The threshold voltage is a function of its length, width and drain voltage in a
+small dimension MOSFET. Briefly explain two of the effects that contribute to
+such threshold variation.
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+(4 Marks)
+
+To lower the RC time delay of an interconnect network, both high conductivity
+wiring and low-dielectric constant insulators are required, and copper (Cu) is the
+apparent choice for a new interconnection metallization. With one or two sentences,
+describe the processes used for depositing Cu, and state the drawbacks for using Cu
+as an alternative material to aluminium (Al) in VLSI circuits.
+(S Marks)
+
+(b)
+
+Given, the resistivity of Al is 2.65 uQ-cm, and the resistivity of Cu is 1.7 uQ-cm.
+If Al is replaced with Cu wire and instead of using SiO2 (with k = 3.9), a low-k
+dielectric (with k = 2.68) is used, what is the percentage of RC time constant
+reduction to be achieved?
+(S Marks)
+
+(Cc)
+
+Briefly describe the Bipolar CMOS (BiCMOS) technology and states the key
+advantages and disadvantages of BiCMOS circuits as compared to CMOS static
+logic circuits.
+(S Marks)
+
+(d)
+
+Figure 2 shows a BiCMOS NAND gate. Verify if the circuit is truly performing
+the NAND function by briefly describing its circuit operation during output high
+State and during output low state. When analysing the circuit operation, consider
+first the MOSFETs, and take note that the BJTs, Q; and Qo, function as an output
+buffer. State if the circuit provides full rail-to-rail swing.
+
+Note: Question No. 2 continues on page 3.
+
+EE6306
+
+Vp
+
+:
+
+Q:
+
++ : Np
+VB.
+
+|
+
+Ns
+
+=
+Mot
+
+nae
+
+|
+
+|
+
+=
+
+Na?
+|
+
+=
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+-
+
+|
+
+hen
+
+_
+
+Q>
+
+Figure 2
+
+(S Marks)
+
+3.
+
+(a)
+
+(i)
+
+Implement a 3-input XOR/XNOR logic function in Differential Cascode
+Voltage Switch Logic (DCVSL) CMOS transistor circuit with minimum
+number of transistors.
+
+(11)
+
+Briefly discuss the advantages and disadvantages of DCVSL
+compared to CMOS static logic circuits.
+
+circuits when
+(14 Marks)
+
+(b)
+
+Acomplex logic circuit is shown in Figure 3.
+A
+
+—
+
+B—
+Cc
+
+—
+
+BE
+
+Figure 3
+
+Note: Question No. 3 continues on page 4.
+
+EE6306
+(1)
+
+Implement the same logic function in a dynamic CMOS transistor circuit with
+minimum number of transistors.
+
+(11)
+
+Determine the (=) ratios of the transistors in the Pull-down Network (PDN)
+such that the driving capability of the PDN is equal to the inverter designed
+for
+
+the
+
+worst-case
+
+scenario.
+
+Assume
+
+that
+
+the
+
+(=)
+
+ratio
+
+of the
+
+NMOS
+
+transistor for the inverter is (=).
+
+(6 Marks)
+
+4.
+
+‘Two n-bit 2’s complement numbers X, Y and their product P can be represented by the
+expressions below.
+n-2
+
+x=
+
+(—1)xy-1
+
++
+
+Xj
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+1=0
+—2
+
+Y = (-1)¥n-1 +
+
+Vi
+1=0
+
+n-1
+
+P=XxY=
+
+n-1
+
+>»
+i=0
+
+xiyj2't/)
+
+j=0
+
+This question is to design a Baugh-Wooley array multiplier to compute P for n = 4. Your
+design procedure should include the following steps.
+(a)
+
+Show the multiplication with the signed partial products in terms of x; and Vj.
+(4 Marks)
+
+(b)
+
+Show the multiplication with the negative partial products
+complements in terms of x; and yj.
+
+converted to their
+(4 Marks)
+
+(c)
+
+Show the multiplication with the partial products in terms of x; and y;, and the
+required offset value.
+(4 Marks)
+
+Note: Question No. 4 continues on page 5.
+
+EE6306
+
+(d)
+
+Draw a logic cell for implementing the non-complement partial product and another
+for the complement partial product, using logic gates and full adders. Label clearly
+the inputs and outputs, and give a name to each of the logic cells.
+(4 Marks)
+
+(€)
+
+Draw the block diagram of the multiplier using the logic cells in Part (d). Label the
+cell names, the inputs and outputs clearly.
+(4 Marks)
+
+(a)
+
+Circuit synthesis is one type of design synthesis.
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+(1) | Explain what circuit synthesis is.
+(11)
+State the two main stages in circuit synthesis and explain each of them.
+(iii) State and explain the other two types of design synthesis. State the main tasks
+in each of them.
+(16 Marks)
+
+(b)
+
+State the four main factors related to power consumption in CMOS
+
+circuits.
+
+integrated
+(4 Marks)
+
+END OF PAPER
+
+Eaters
+ae Tatar
+
+Eaters
+ae Tatar
+
+EE6306
+
+DIGITAL INTEGRATED CIRCUIT DESIGN
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+Please read the following instructions carefully:
+
+1.
+
+Please do not turn over the question paper
+until you are told to do so. Disciplinary action
+may be taken against you if you do so.
+
+2.
+
+You are not allowed to leave the examination hall unless
+accompanied by an invigilator. You may raise your hand if
+you need to communicate with the invigilator.
+
+Please write your Matriculation Number on the front of the
+answer book.
+
+Please indicate clearly in the answer book (at the
+appropriate place) if you are continuing the answer to a
+question elsewhere in the book.
+
+
