@@ -25,6 +25,33 @@ If you expand the archive or add new analyses, please:
 3. Commit the changes with a descriptive message (e.g., `git commit -am "Add 2025 Sem2 summary"`).
 4. Open a PR that states the newly covered exams and any tooling changes so reviewers can trace the workflow.
 
+## Resolving PR merge conflicts
+If GitHub reports conflicts (for example, `SUMMARY.md` diverged from `main`), resolve them locally:
+
+1. Fetch the newest commits from the base repository:
+   ```bash
+   git fetch origin
+   ```
+2. Merge (or rebase) the target branch into your work branch. Assuming the base is `main`:
+   ```bash
+   git checkout work
+   git merge origin/main   # or: git rebase origin/main
+   ```
+3. Git marks conflicting files with `<<<<<<<`, `=======`, `>>>>>>>`. Open each file (e.g., `SUMMARY.md`), keep the desired text from both sides, and delete the markers.
+4. Stage and complete the merge:
+   ```bash
+   git add SUMMARY.md   # repeat for every file you edited
+   git commit           # or: git rebase --continue if you rebased
+   ```
+5. Push the resolved history:
+   ```bash
+   git push origin work        # merge flow
+   # or, after a rebase:
+   git push --force-with-lease origin work
+   ```
+
+If you prefer a graphical workflow, GitHub Desktop/VS Code follow the same idea: pull, resolve the highlighted conflicts, commit, and push.
+
 ## Current GitHub / PR status
 This workspace runs entirely inside the provided container; it has **no** connection to your GitHub remote, so nothing has been pushed upstream yet. To publish these changes you will need to:
 
