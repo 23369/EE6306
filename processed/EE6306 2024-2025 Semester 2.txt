@@ -1,0 +1,333 @@
+EE6306
+NANYANG TECHNOLOGICAL
+
+UNIVERSITY
+
+SEMESTER 2 EXAMINATION 2024-2025
+EE6306 — DIGITAL INTEGRATED
+
+CIRCUIT DESIGN
+
+April / May 2025
+
+Time Allowed: 3 hours
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+INSTRUCTIONS
+1.
+
+This paper contains 5 questions and comprises 5 pages.
+
+2.
+
+Answer all 5 questions.
+
+3.
+
+All questions carry equal marks.
+
+4.
+
+This is a closed book examination.
+
+5.
+
+Unless specifically stated, all symbols have their usual meanings.
+
+1.
+
+(a)
+
+An NMOS
+
+transistor is fabricated using the 0.25-um CMOS
+
+technology. The
+
+process uses a doping level of Nz = 8x10!° cm?, B= 350 wA/V’,
+
+W = 6A, andL
+
+= 2. The transistor has a nominal threshold voltage of 0.7 V, and its body is tied
+
+to the source. Assume that éx = 3.9&, és; = 11.7&, & = 8.85104 F/cm, thermal
+
+voltage Vr = 26 mV and n; = 1.6x10!° cm”.
+
+(1)
+
+The SiO2 gate oxide of the NMOS transistor is 3-nm thick. When SiO? is
+replaced by a high-k material of the same thickness, the gate capacitance
+tripled. Calculate the dielectric constant of the high-k material and explain
+the purpose of using a high-k dielectric gate material.
+
+(11)
+
+Calculate the Jy; current of the NMOS
+biasing conditions:
+
+I.
+Il.
+Il.
+
+transistor for the below following
+
+Ves=3 Vand Va
+=3 V.
+Ves = 0.5 V and Vas = 1 V.
+Ves =5 Vand Va =3 V.
+
+Note: Question No. 1 continues on page 2.
+
+(10 Marks)
+
+EE6306
+(b)
+
+Ifa potential difference exists between the source and body of the NMOS transistor,
+
+such that V;, > 0, what will happen to the threshold voltage? How will the threshold
+voltage vary if the doping level in the transistor is also reduced?
+
+(5 Marks)
+
+(c)
+
+State two main differences between the long-channel and short-channel devices?
+(5 Marks)
+
+2.
+
+(a)
+
+(i)
+
+Deduce the logic function of the CMOS
+
+circuit shown in Figure 1.
+
+(ii)
+
+Based on CMOS n-well process, and using continuous p- and n-diffusion
+lines, draw a stick diagram for the circuit in Figure 1.
+
+(10 Marks)
+
+a
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+Vp
+
+BL
+
+Ihe
+
+CL
+DL
+
+(dete
+E-
+
+Figure 1
+
+Note: Question No. 2 continues on page 3.
+
+oY
+
+EE6306
+(b)
+
+Describe the operation of the BiCMOS circuit shown in Figure 2 and state the key
+advantages of this circuit.
+(10 Marks)
+Vop
+
+Ko.
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+-O
+
+4
+
+FB
+
+/—
+
+K-21
+
+—
+
+MN, MN;
+
+—
+
+Ficure 2
+
+rp)
+
+V out
+
+(a)
+
+(i)
+
+(ii)
+
+EE6306
+The power dissipation in a digital CMOS circuit can typically be categorized
+into two main components, static power and dynamic power. List the various
+contributing factors for static and dynamic power dissipation.
+Unnecessary glitches can be reduced to lower switching activity. Using a
+chain of five 2-input NAND gates, where one input of all five gates undergoes
+a logic 0-to-1 transition and the other input of the first gate is tied to 5V, show
+how glitches can occur with appropriate waveforms.
+(10 Marks)
+
+(b)
+
+(i)
+
+Sequential circuits typically incorporate latches or registers in the design.
+Draw a static multiplexer-based D-latch and a dynamic multiplexer-based
+D-latch with MOS transistors, logic NOT gates and any other necessary
+components.
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+(ii)
+
+In general, the C*MOS latch can be re-designed using a single-phase clock
+into a True Single-Phase Clock (TSPC) latch. Sketch your design of a TSPC
+latch and briefly describe the circuit operation.
+(10 Marks)
+
+(a)
+
+In architecture synthesis of VLSI systems, one of the main tasks is data path
+allocation. Briefly explain data path allocation. State and explain the major subtasks in data path allocation.
+(10 Marks)
+
+(b)
+
+Testing is one of the important processes in the manufacture of digital integrated
+circuits. One of the algorithms used to generate test patterns is the D algorithm. Use
+the D algorithm to derive a test vector for the inputs (a, b, c, d, e) of the logic circuit
+in Figure 3 to detect a stuck-at-0 (SAO) fault at the point X. Determine the values
+at the nodes X, Y, P and Q for this test vector. What is the value at the output f, and
+
+what does the output value indicate?
+
+Figure 3
+
+(10 Marks)
+
+EE6306
+The dot diagram representing the partial products of a 4-bit by 4-bit binary multiplication
+is shown in Figure 4. Carry-save technique is often used to reduce the carry propagation
+delay in the summation of partial products. Wallace adder tree and Dadda adder tree use
+the carry-save technique.
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+Ficure 4
+
+(a)
+
+Explain the concept of carry-save technique and how the carry propagation delay is
+reduced.
+(6 Marks)
+
+(b)
+
+Using the usual notation, draw a Wallace adder tree for the summation of the partial
+products in the dot diagram in Figure 4 with clear indications of the stages. State
+how many full adders and half adders are used in each stage.
+(6 Marks)
+
+(c)
+
+Repeat Part (b) for a Dadda adder tree.
+
+(d)
+
+(6 Marks)
+
+Compare the advantages and disadvantages of the Wallace adder tree and the Dadda
+adder tree.
+
+(2 Marks)
+
+END OF PAPER
+
+CONFIDENTIAL
+EE6306
+
+DIGITAL
+
+INTEGRATED
+
+CIRCUIT
+
+DESIGN
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+Please read the following instructions carefully:
+
+1.
+
+Please do not turn over the question paper until you
+are told to do so. Disciplinary action may be taken
+against you if you do so.
+
+2.
+
+You are not allowed to leave the examination hall
+unless accompanied by an invigilator. You may raise
+your hand if you need to communicate with the
+invigilator.
+
+3.
+
+Please write your Matriculation Number on the front of the
+
+4,
+
+answer book.
+
+Please
+
+indicate
+
+appropriate
+
+place)
+
+clearly
+
+if you
+
+in
+
+the
+
+answer
+
+are continuing
+
+question elsewhere in the book.
+
+book
+
+(at
+
+the answer
+
+the
+
+to a
+
+
