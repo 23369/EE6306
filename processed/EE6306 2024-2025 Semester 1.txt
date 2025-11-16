@@ -1,0 +1,449 @@
+EE6306
+NANYANG TECHNOLOGICAL
+
+UNIVERSITY
+
+SEMESTER 1 EXAMINATION 2024-2025
+EE6306 — DIGITAL INTEGRATED
+
+CIRCUIT DESIGN
+
+November / December 2024
+
+Time Allowed: 3 hours
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+INSTRUCTIONS
+1.
+
+This paper contains 5 questions and comprises 7 pages.
+
+2.
+
+Answer all 5 questions.
+
+3.
+
+All questions carry equal marks.
+
+4.
+
+This is a closed book examination.
+
+5.
+
+Unless specifically stated, all symbols have their usual meanings.
+
+1.
+
+(a)
+
+(i)
+
+For the circuit shown in Figure 1 on page 2, derive an expression for the
+output Z.
+
+(ii)
+
+Prove
+
+that the
+
+(A -C ) -(A+B
+
+function
++C)
+
+of Z in Figure
+
+1 on page
+
+2 is equivalent
+
+and draw a CMOS circuit for this given expression.
+
+Note: Question No. 1 continues on page 2.
+
+to
+
+EE6306
+(iii)
+
+Explain if the circuit drawn based on the Boolean expression in part (a) (i1) is
+better than the circuit shown in Figure 1.
+
+AL
+B4
+
+SP-
+
+ar
+
+r-B
+
+iL
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
++
+
+KC
+
+-C
+
+A
+
+FB
+
+Ht
+
+Figure 1
+
+(10 Marks)
+
+Note: Question No. | continues on page 3.
+
+EE6306
+(b)
+
+The process flow of a self-aligned silicide process for
+Figure 2.
+
+a MOSFET
+
+(i)
+
+State the key advantage of using metal silicide on MOSFET.
+
+(i1)
+
+List two popular metal silicides.
+
+(iii)
+
+What does it mean by self-aligned silicide?
+
+(iv)
+
+What is the purpose of using sidewall spacer?
+
+(v)
+
+Briefly describe each of the process steps shown in Figure 2.
+
+is shown in
+
+(10 Marks)
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+Sidewall
+
+pies
+es
+Patonns CTE
+
+EE el
+oN
+be
+Tae
+Pare
+
+Figure 2
+
+EE6306
+
+(a)
+
+(1)
+
+Briefly describe the hot carrier effects and name the process module
+commonly used for controlling the hot carrier effects.
+
+(11)
+
+For a simple n-channel MOSFET with a gate oxide thickness less than 150 A
+and gate length less than 0.5 um, the peak electric field can be approximated
+using the following equation.
+_
+‘
+max
+
+~
+
+ELV,
+Vs
+
+L.7xl0
+
+a V,
+—2
+
+a V,)
++r E sat
+
+41/8
+
+Ct. x, 1/3 2 71/5
+
+where Laz is the critical electric field for velocity saturation (~40 kV/cm), L
+is the gate length, Va; is the drain-to-source voltage, Vzs is the gate-to-source
+voltage, V; is the threshold voltage, t,x is the gate oxide thickness and x; is the
+junction depth.
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+Given an n-channel MOSFET with L = 0.5 um, tox = 125 A, x; = 0.2 pm, and
+V,=0.7 V. Assume Vgs = Vas/2, calculate the maximum electric fields when
+Vas =5 V and Vas = 3.3 V.
+
+State two consequences of velocity saturation and explain briefly how Vas can
+be increased.
+(12 Marks)
+(b)
+
+Given the BiCMOS inverter gate in Figure 3, modify it to obtain a BiCMOS circuit
+for the function F = A-(B+C+D)+E.
+Note that no simplification of the
+function is required. State if your circuit permits rail-to-rail voltage swings.
+
+(8 Marks)
+
+out
+
+Ficure 3
+
+4
+
+EE6306
+
+(a)
+
+Given the following Boolean expression:
+Y = A+B-(CD
+
++ E)
+
+Implement the function Y in Differential Cascode Voltage Switch Logic (DCVSL)
+through transistor-level circuit with minimum number of transistors. Determine the
+(=) ratios of the transistors in the Pull-down Network (PDN) such that the driving
+capability of the PDN is equal to the inverter designed for the worst-case scenario.
+Assume that the (=) ratio of the NMOS
+
+transistor for the inverter is (=). List the
+
+advantages of DCVSL logic circuit over static CMOS logic circuit.
+(10 Marks)
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+(b)
+
+A 4-stage pipeline circuit consists of 4 combinational logic blocks. It is assumed
+that the propagating delays of the various stages are 1T, 1.2T, 1.3T and nT ps
+respectively, where 1.5 <n < 2.5.
+(i)
+
+Show your design of the pipeline datapath using a block diagram.
+
+(ii)
+
+Determine the clock period of the non-pipelined and pipelined datapaths.
+
+(iii)
+
+If the throughput of the pipelined datapath is 2.75x of the non-pipelined
+datapath, determine n.
+
+(iv)
+
+Show an alternative design to improve the throughput of the pipelined
+datapath and determine the throughput of this improved design.
+(10 Marks)
+
+EE6306
+4.
+
+(a)
+
+Figure 4 shows part of a digital circuit with an n-bit input Xn-1Xn-2 ... X3X2X1X0, a 3bit input z4Zz2z1, and an n-bit output yn-1Yn-2...Y3y2y1Yo.(i)
+
+Analyze the circuit and explain its operation when z4z2z1 = 010.
+
+(1)
+
+Identify the function of the circuit.
+
+(iii)
+
+What are its advantages compared to other circuits with similar functions?
+(8 Marks)
+
+(b)
+
+Testing is an important step in manufacture of digital integrated circuits.
+(i)
+
+Explain the importance of testing.
+
+(ii)
+
+State the test categories and give each of them a brief explanation.
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+(12 Marks)
+
+X0
+
+6
+X2
+
+Lo
+
+Td
+Pte
+
+?
+
+TET
+
+Lo
+
+?
+
+pe
+aa
+
+°
+
+mi
+
+aT
+
+| an
+°
+
+eT LPT |
+Le
+
+|
+X4
+
+Ap
+
+ZZ
+
+ne
+
+uy
+
+{7
+L
+
+Lt
+
+Yo
+
+.
+
+ape
+ub
+
+—
+
+y2
+
+|7
+
+.
+
+1c
+
+o
+
+leet
+
+: Z2
+
+Zo
+
+Ficure4
+
+6
+
+|
+
+0
+
+t)
+
+et
+
+Z4
+
+1c
+
+Za
+
+y4
+
+EE6306
+
+(a)
+
+In digital integrated circuits, the adder is usually a performance-critical component.
+(i)
+
+| Carry-bypass technique can be used to improve the speed of an adder. Draw
+a 4-bit carry-bypass circuit with clear signal labels and definitions. Use the
+diagram to explain how this technique improves the speed performance.
+
+(ii)
+
+Using the circuit in part (a) (i) as one stage, draw a block diagram of a 16-bit
+carry-bypass adder. Label clearly the function of each block, as well as inputs
+and outputs.
+(12 Marks)
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+(b)
+
+Logic synthesis is a key aspect of design synthesis. Explain what logic synthesis is
+and outline its objectives. Briefly describe the main stages involved in the logic
+synthesis process.
+(8 Marks)
+
+END OF PAPER
+
+EE6306
+
+DIGITAL INTEGRATED CIRCUIT DESIGN
+CONFIDENTIAL
+
+ATTENTION: The Singapore Copyright Act applies to the use of this document. Nanyang Technological University Library
+
+Please read the following instructions carefully:
+
+1.
+
+Please do not turn over the question paper
+until you are told to do so. Disciplinary action
+may be taken against you if you do so.
+
+2.
+
+You are not allowed to leave the examination hall unless
+accompanied by an invigilator. You may raise your hand if
+
+you need to communicate with the invigilator.
+
+Please write your Matriculation Number on the front of the
+answer book.
+Please indicate clearly in the answer book (at the
+appropriate place) if you are continuing the answer to a
+question elsewhere in the book.
+
+
